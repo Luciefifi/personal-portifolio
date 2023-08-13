@@ -11,6 +11,7 @@
   font-size: 1.5rem;
   font-style: normal;
   font-family: "Battambang";
+  /* position: absolute; */
 }
 .navlinks {
   display: flex;
@@ -76,23 +77,129 @@ img {
 .posts {
   background-color: #edf7fa;
   display: flex;
+  justify-content: center;
+  font-family: "Battambang";
+
 }
 .cards {
   margin: 2rem;
+  display: flex;
+  gap: 50px;
 }
 
-.tit {
-  display: flex;
-}
+
 
 .cards {
   display: flex;
-  justify-content: center;
-  justify-items: center;
-  background-color: #ffffff;
+ 
+  /* background-color: #ffffff; */
+  
+
 }
-.card1 {
+.card1 ,
+.card2 {
+
+  align-items: center;
   width: 419px;
   height: 295px;
-  padding: 2rem;
+  /* padding: 1rem; */
+  background-color: white;
+  font-size: 16px;
+ padding-left: 10px;
+ padding-right: 1px;
+ /* padding-bottom: 0%; */
+ margin-top: 2rem;
+
+  
 }
+/* .card1{
+    margin-left: 8rem;
+} */
+.cards .title{
+   font-weight: bold;
+   font-size: 26px;
+  line-height: 1rem;
+
+}
+
+.cards .date-title{
+    display: flex;
+    
+}
+.date-title {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .date-title p {
+    margin: 0; 
+  }
+  
+  .date-title p + p::before {
+    content: " | ";
+    margin: 0 5px; 
+  }
+  .parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    /* margin: 5rem; */
+
+  }
+  .featured-works{
+    /* background-color: aquamarine; */
+    width: 929px;
+    height: 198.03px;
+  font-family: "Battambang";
+
+    
+  }
+  .featured-works img{
+    border-radius: 0%;
+    width: 246px;
+    height: 175.75px;
+
+  }
+  .img-work{
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+    
+  }
+  .btn-tit{
+    display: flex;
+    gap: 40px;
+  }
+  .y-btn{
+    background-color: #1e90ff;
+    border-radius: 20px;
+    width: 90.98px;
+    height: 39px;
+    border: none;
+    font-size: 1.5rem;
+
+  }
+  .btn-tit p{
+    margin-top: 0;
+  }
+  .featured-works .content{
+    font-size: 16px;
+
+  }
+
+  .featured-works .titl{
+  margin-left: 4rem;
+  }
+  .featured-works .title{
+    font-weight: bold;
+    font-size: 28px;
+    }
+  .img-work::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; 
+    margin-top: 20px; 
+  }

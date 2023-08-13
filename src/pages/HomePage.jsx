@@ -33,19 +33,14 @@ export default function HomePage() {
         {/* </div> */}
       </div>
       <div className="posts">
-        <div className="tit">
-           
-          <p>Recent Posts</p>
-          <p>View all</p>
-          
-        </div>
         <div className="cards">
           <div className="card1">
             <div className="title">
-              <p>Making a design system from scratch</p>
+              <p>Making a design system from </p>
+              <p>scratch</p>
             </div>
             <div className="date-title">
-              <p>12 Aug 2023</p>
+              <p className="ate-title">12 Aug 2023</p>
               <p>Design , Pattern</p>
             </div>
             <div className="content">
@@ -58,7 +53,8 @@ export default function HomePage() {
           </div>
           <div className="card2">
             <div className="title">
-              <p>Making a design system from scratch</p>
+              <p>Making a design system from </p>
+              <p>scratch</p>
             </div>
             <div className="date-title">
               <p>12 Aug 2023</p>
@@ -74,6 +70,65 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+      <div className="parent-container">
+      <div className="featured-works">
+        <p className="titl">Featured Works</p>
+        <div className="img-work">
+        <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
+          <div className="work-contenr">
+            <p className="title"> Designing Dashboard</p>
+            <div className="btn-tit">
+              <button className="y-btn"> 2023</button>
+              <p>Dashboard</p>
+            </div>
+            <div className="content">
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="img-work">
+        <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
+          <div className="work-contenr">
+            <p className="title"> Designing Dashboard</p>
+            <div className="btn-tit">
+              <button className="y-btn"> 2023</button>
+              <p>Dashboard</p>
+            </div>
+            <div className="content">
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="img-work">
+        <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
+          <div className="work-contenr">
+            <p className="title"> Designing Dashboard</p>
+            <div className="btn-tit">
+              <button className="y-btn"> 2023</button>
+              <p>Dashboard</p>
+            </div>
+            <div className="content">
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      </div>
+      
     </div>
   );
 }
