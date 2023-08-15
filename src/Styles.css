@@ -309,12 +309,15 @@ img {
         display: none;
     }
     .intro{
-        background-color: aqua;
-        width: 345px;
+        /* background-color: aqua; */
+        width: 311px;
         display: flex;
         flex-direction: column-reverse; 
         height:1087px;
-       margin: 0;
+        /* align-items: center; */
+        margin: 0;
+        padding: auto;
+        
        
     }
     .intro img {
@@ -392,6 +395,23 @@ img {
     font-weight: bold;
     /* color: goldenrod; */
     font-size: 22px;
+}
+.tit{
+    margin-left: 6rem;
+}
+.featured-work-container{
+    width: 375px;
+    /* background-color: red; */
+}
+.featured-work{
+    width: 337px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.featured-work img{
+   margin: 2rem 0 0 2rem ;
 }
 
     }
