@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Battambang&display=swap");
+/* .container{
+    background-color: rgb(55, 54, 54);
+} */
 .header {
   display: flex;
   flex-direction: row;
-  /* background-color: darkgray; */
   justify-content: end;
   justify-items: center;
   align-items: center;
@@ -11,6 +13,11 @@
   font-size: 1.5rem;
   font-style: normal;
   font-family: "Battambang";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
 }
 .navlinks {
   display: flex;
@@ -39,6 +46,7 @@
   font-family: "Battambang";
   margin-left: 8rem;
   margin-right: 6rem;
+  margin-top: 8rem;
 }
 .t-intro {
   width: 669px;
@@ -137,19 +145,17 @@ img {
     content: " | ";
     margin: 0 5px; 
   }
-  .parent-container {
+  /* .parent-container {
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    /* margin: 5rem; */
-
   }
   .featured-works{
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     width: 929px;
     height: 198.03px;
-  font-family: "Battambang";
+    font-family: "Battambang";
 
     
   }
@@ -196,8 +202,197 @@ img {
   .img-work::after {
     content: "";
     display: block;
-    width: 100%;
+    width: 250%;
     height: 1px;
     background-color: #ccc; 
     margin-top: 20px; 
   }
+ 
+ 
+  .work-contenr{
+   
+  }
+  .img-work{
+    background-color: aqua;
+  } */
+  .featured-work-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+    width: 100%;
+    font-family: "Battambang";
+   } 
+ 
+  .featured-work{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    width: 70%; 
+  }
+  .featured-work img{
+    border-radius: 0%;
+    width: 246px;
+    height: 175.75px;
+
+  }
+  .btn-tit{
+    display: flex;
+    gap: 40px;
+  }
+  .y-btn{
+    background-color: #1e90ff;
+    border-radius: 20px;
+    width: 90.98px;
+    height: 39px;
+    border: none;
+    font-size: 1.5rem;
+
+  }
+  .btn-tit p{
+    margin-top: 0;
+  }
+  .featured-work .content{
+    font-size: 16px;
+
+  }
+
+  .featured-work .titl{
+  margin-left: 4rem;
+  }
+  .featured-work .title{
+    font-weight: bold;
+    font-size: 28px;
+    }
+
+ 
+    .tit {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 18rem; 
+        font-family: "Battambang";
+
+       
+      } 
+
+      /* featured-work-container ::after {
+        content: "";
+        display: block;
+        width: 250%;
+        height: 1px;
+        background-color: #ccc; 
+        margin-top: 20px; 
+      } */
+
+
+      .footer{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        justify-items: center; */
+        gap: none;
+        align-items: center;
+      }
+      .social-medias{
+        font-size: 50px;
+      }
+      .foot-note{
+        font-size: 14px;
+        font-family: "Battambang";
+
+      }
+
+
+
+      /*====================MEDIA QUERIES(STUBBORN SMALL DEVICES)==================*/
+@media screen and (max-width:575px) {
+    .header{
+        display: none;
+    }
+    .intro{
+        background-color: aqua;
+        width: 345px;
+        display: flex;
+        flex-direction: column-reverse; 
+        height:1087px;
+       margin: 0;
+       
+    }
+    .intro img {
+        width: 250px;
+        height: 317.9px;
+        border-radius: 20px;
+        margin: 1rem 0 0 1rem;
+      }
+     
+        /* .t-intro {
+            width: ;
+            margin-top: 2rem;
+          } */
+  
+      .intro .name{
+        width: 241px;
+        height: 174px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 4rem;
+        text-align: center;
+        line-height: 40px;
+
+      }
+      .c-intro {
+        font-size: 20px;
+        line-height: 2rem;
+        font-style: normal;
+        width: 325px;
+        height: 504px;
+        margin-top: -3rem;
+      }
+      .posts {
+    
+        display: flex;
+        flex-direction: column;
+        font-family: "Battambang";
+        width: 375px;
+        height: 647px;
+        background-color: #edf7fa;
+        align-items: center;
+        margin: 2rem 0;
+
+      
+      }
+      .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        /* width: 354px;
+        height: 275px;
+         */
+      }
+      .date-title {
+        display: flex;
+        align-items: center; 
+      }
+      .card1 ,
+.card2 {
+
+  align-items: center;
+  width: 354px;
+  height: 275px;
+  /* padding: 1rem; */
+  background-color:none;
+  font-size: 16px;
+ padding-left: 10px;
+ padding-right: 1px;
+ /* padding-bottom: 0%; */
+ margin-top: 2rem;
+
+  
+}
+.cards .title{
+    font-weight: bold;
+    /* color: goldenrod; */
+    font-size: 22px;
+}
+
+    }
+     

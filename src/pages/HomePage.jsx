@@ -1,10 +1,11 @@
 import React from "react";
 import Header from "../component/Header";
-// import image from '../assets'
+import {AiFillFacebook, AiFillLinkedin , AiOutlineInstagram, AiOutlineTwitter} from 'react-icons/ai'
+
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="container">
       <Header />
       <div className="intro">
         <div className="t-intro">
@@ -70,7 +71,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className="parent-container">
+      {/* <div className="parent-container">
       <div className="featured-works">
         <p className="titl">Featured Works</p>
         <div className="img-work">
@@ -89,9 +90,22 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-        </div>
-        <div className="img-work">
-        <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
+          <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
+          <div className="work-contenr">
+            <p className="title"> Designing Dashboard</p>
+            <div className="btn-tit">
+              <button className="y-btn"> 2023</button>
+              <p>Dashboard</p>
+            </div>
+            <div className="content">
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+          <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
           <div className="work-contenr">
             <p className="title"> Designing Dashboard</p>
             <div className="btn-tit">
@@ -107,27 +121,87 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div className="img-work">
-        <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
-          <div className="work-contenr">
-            <p className="title"> Designing Dashboard</p>
-            <div className="btn-tit">
-              <button className="y-btn"> 2023</button>
-              <p>Dashboard</p>
-            </div>
-            <div className="content">
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
-            </div>
-          </div>
-        </div>
+      
       </div>
+        {/* <div className="img-work"> */}
+       
+        {/* </div> */}
+        {/* <div className="img-work"> */}
+      
+        {/* </div> */}
+      {/* </div> */}
+      <span className="tit">Featured work</span>
+
+      <div className="featured-work-container">
+        <div className="featured-work">
+        <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
+        <div className="work-contenr">
+            <p className="title"> Designing Dashboard</p>
+            <div className="btn-tit">
+              <button className="y-btn"> 2023</button>
+              <p>Dashboard</p>
+            </div>
+            <div className="content">
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+          <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
+        <div className="work-contenr2">
+            <p className="title"> Designing Dashboard</p>
+            <div className="btn-tit">
+              <button className="y-btn"> 2023</button>
+              <p>Dashboard</p>
+            </div>
+            <div className="content">
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+          <img src="/assets/pexels-christina-morillo-1181263.jpg" alt="" />
+        <div className="work-contenr">
+            <p className="title"> Designing Dashboard</p>
+            <div className="btn-tit">
+              <button className="y-btn"> 2023</button>
+              <p>Dashboard</p>
+            </div>
+            <div className="content">
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <hr />
+
+      <div className="footer">
+        <div className="social-medias">
+            <AiFillFacebook/>
+            <AiFillLinkedin/>
+            <AiOutlineInstagram/>
+            <AiOutlineTwitter/>
+        </div>
+        <div className="foot-note">
+            <p>Copyright &copy; all right reserved</p>
+
+        </div>
       
 
       </div>
+     
+     
+      
       
     </div>
   );
