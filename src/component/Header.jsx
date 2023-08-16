@@ -3,6 +3,11 @@ import '../Styles.css'
 export default function Header() {
   return (
     <div className='header'>
+      <div className="menu-icon">
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
       <div className='navlinks'>
         <p>Works</p>
         <p>Blogs</p>
