@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
 export default function LoginPage() {
@@ -8,32 +9,37 @@ export default function LoginPage() {
                 <img src="/assets/desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpeg" alt="" />
             </div>
             <div className="personal-info">
+                <div className='personal-info-container'>
                 <h2>Welcome back</h2>
                 <div className="form">
                     <form action="">
                         <div>
                         <label htmlFor="email">
-                            Email:
+                            Email
                             </label>  
+                            <br />
                             <input 
                             type="text"
                             placeholder='email@gmail.co'
-                            value="email"
+                            // value="email"
+                            style={{ width: '397px',  height:"37px" , border:"none", marginTop:"10px" }}
+
                             />
 
                         </div>
                        
                        <div>
                        <label htmlFor="password">
-                            Password:
+                            Password
                             </label>
+                            <br />
                             <input 
                             type="text"
                             placeholder='........'
-                            value="password"
-                            />
-                     
+                            // value="password"
+                            style={{ width: '397px',  height:"37px" , border:"none" , marginTop:"10px"}}
 
+                            />
                        </div>
                        <div>
                         <label >
@@ -56,11 +62,13 @@ export default function LoginPage() {
                             <button>
                             <img src="/assets/images.png" alt="" />
                             </button>
-                        </div><div className="facebook">
+                        </div>
+                        <div className="facebook">
                             <button>
                             <img src="/assets/Facebook_logo_PNG12.png" alt="" />
                             </button>
-                        </div><div className="github">
+                        </div>
+                        <div className="github">
                             <button>
                           <img src="/assets/GitHub-Mark.png" alt="" />
                             </button>
@@ -69,6 +77,9 @@ export default function LoginPage() {
                     <p>don't have account?</p>
                     <a href="#">create an account</a>
                 </div>
+
+                </div>
+                
             </div>
 
 

@@ -410,8 +410,10 @@ img {
 
 
 /* LOGIN PAGE */
-.login-container{
+
+/* .login-container{
   width: 1280px;
+ 
 }
 .login-container .container{
 display: grid;
@@ -433,14 +435,14 @@ gap: 53px;
 .container .social-login{
   /* display: grid;
   grid-template-columns: 33% 33% 33%; */
-  display: flex;
+  /* display: flex;
   flex-direction: rows;
   gap: 20px;
   justify-content: center;
   justify-items: center;
-}
+} */
 
-.container .social-login img{
+/* .container .social-login img{
   width: 21px;
   height: 22px;
   
@@ -452,4 +454,65 @@ gap: 53px;
   border: none;
    border-radius: 20px;
   
+}*/  
+
+
+.login-container{
+  width: 1280px;
+  height: 832;
+
+  /* background-color: blue; */
 }
+.container{
+  display: grid;
+ grid-template-columns: 50% 50%;
+}
+.image img{
+  width:564px ;
+  height: 700px;
+}
+.personal-info{
+  width: 716px;
+  height: 832px;
+  /* margin: 7rem  5rem 4rem 6rem; */
+  background-color: aqua;
+  height: 700px;
+  margin-top: 2rem;
+  /* padding: 4rem; */
+  margin-left: -2rem;
+
+
+}
+.social-login{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.social-login button{
+  width: 116px;
+  height: 47px;
+}
+.social-login img{
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+.personal-info-container{
+/* width: 716px;
+height: 600px; */
+background-color: red;
+margin: 4rem 2rem 4rem 5rem;
+padding: 5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  /* background-color: black; */
+}
+label{
+  font-weight: bold;
+  font-size: 18px;
+}
+
