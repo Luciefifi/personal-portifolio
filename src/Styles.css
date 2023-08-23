@@ -17,29 +17,13 @@
   background-color: rgb(243, 243, 243);
 }
 
-/* @media screen and (max-width: 768px) {
-    .navlinks {
-      display: none; 
-    }
-    .menu-icon {
-      display: block; 
-    }
-    .bar {
-      width: 25px;
-      height: 3px;
-      background-color: #333;
-      margin: 4px 0;
-    }
-  } */
-
 .navlinks {
   display: flex;
   gap: 8rem;
   margin-right: 3rem;
 }
 .lgn-btn {
-  /* margin-right: 1rem;
-     */
+  
   display: flex;
 }
 .login-signup-btn {
@@ -147,76 +131,6 @@ img {
   content: " | ";
   margin: 0 5px;
 }
-/* .parent-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-  }
-  .featured-works{
-    background-color: aquamarine;
-    width: 929px;
-    height: 198.03px;
-    font-family: "Battambang";
-
-    
-  }
-  .featured-works img{
-    border-radius: 0%;
-    width: 246px;
-    height: 175.75px;
-
-  }
-  .img-work{
-    display: grid;
-    grid-template-columns: 40% 60%;
-
-    
-  }
-  .btn-tit{
-    display: flex;
-    gap: 40px;
-  }
-  .y-btn{
-    background-color: #1e90ff;
-    border-radius: 20px;
-    width: 90.98px;
-    height: 39px;
-    border: none;
-    font-size: 1.5rem;
-
-  }
-  .btn-tit p{
-    margin-top: 0;
-  }
-  .featured-works .content{
-    font-size: 16px;
-
-  }
-
-  .featured-works .titl{
-  margin-left: 4rem;
-  }
-  .featured-works .title{
-    font-weight: bold;
-    font-size: 28px;
-    }
-  .img-work::after {
-    content: "";
-    display: block;
-    width: 250%;
-    height: 1px;
-    background-color: #ccc; 
-    margin-top: 20px; 
-  }
- 
- 
-  .work-contenr{
-   
-  }
-  .img-work{
-    background-color: aqua;
-  } */
 .featured-work-container {
   display: flex;
   flex-direction: column;
@@ -293,6 +207,95 @@ img {
 .foot-note {
   font-size: 14px;
   font-family: "Battambang";
+}
+
+
+
+
+/* LOGIN PAGE */
+
+.login-container{
+  width: 1280px;
+  height: 832;
+  font-family: "Battambang";
+}
+.container{
+  display: grid;
+ grid-template-columns: 50% 50%;
+}
+.image img{
+  width:564px ;
+  height: 700px;
+}
+.personal-info{
+  width: 716px;
+  /* height: 832px; */
+  /* margin: 7rem  5rem 4rem 6rem; */
+  background-color: #89B2DA;
+  height: 700px;
+  margin-top: 2rem;
+  /* padding: 4rem; */
+  margin-left: -2rem;
+
+
+}
+.social-login{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.social-login button{
+  width: 116px;
+  height: 47px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.social-login img{
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  
+}
+.personal-info-container{
+/* width: 716px;
+height: 600px; */
+/* background-color: red; */
+/* margin: 4rem 2rem 4rem 5rem; */
+padding: 5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  /* background-color: black; */
+}
+label{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+form button {
+width: 397px;
+height: 37px;
+color: white;
+background-color: blue;
+margin-bottom: 2rem;
+cursor: pointer;
+border: none;
+}
+.creat{
+  display: flex;
+  gap: 10px;
+}
+.creat a{
+  margin-top: 1rem;
+}
+
+.remember-forgot a{
+  float: right;
+  margin-right: 10rem
 }
 
 /*====================MEDIA QUERIES(STUBBORN SMALL DEVICES)==================*/
@@ -405,114 +408,21 @@ img {
   }
 
 
-}
-
-
-
-/* LOGIN PAGE */
-
-/* .login-container{
-  width: 1280px;
+  .login-container{
+    width:575px;
  
-}
-.login-container .container{
-display: grid;
-grid-template-columns: 45% 55%;
-
-gap: 53px;
-
-}
-.container img{
-  width: 564px;
-  height: 832px;
-}
-
-.container .personal-info{
-  background-color: aqua;
-  width: 716px;
-  height: 832px;
-}
-.container .social-login{
-  /* display: grid;
-  grid-template-columns: 33% 33% 33%; */
-  /* display: flex;
-  flex-direction: rows;
-  gap: 20px;
-  justify-content: center;
-  justify-items: center;
-} */
-
-/* .container .social-login img{
-  width: 21px;
-  height: 22px;
-  
+  }
+  .container{
+    display: block;
+   
+  }
+  .image img{
+    display: none;
+  }
 
 }
-.container .social-login button{
-  width: 116px;
-  height: 47px;
-  border: none;
-   border-radius: 20px;
-  
-}*/  
 
 
-.login-container{
-  width: 1280px;
-  height: 832;
-
-  /* background-color: blue; */
-}
-.container{
-  display: grid;
- grid-template-columns: 50% 50%;
-}
-.image img{
-  width:564px ;
-  height: 700px;
-}
-.personal-info{
-  width: 716px;
-  height: 832px;
-  /* margin: 7rem  5rem 4rem 6rem; */
-  background-color: aqua;
-  height: 700px;
-  margin-top: 2rem;
-  /* padding: 4rem; */
-  margin-left: -2rem;
 
 
-}
-.social-login{
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-}
-.social-login button{
-  width: 116px;
-  height: 47px;
-}
-.social-login img{
-  width: 24px;
-  height: 24px;
-  margin: 0;
-}
-.personal-info-container{
-/* width: 716px;
-height: 600px; */
-background-color: red;
-margin: 4rem 2rem 4rem 5rem;
-padding: 5rem;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-
-  /* background-color: black; */
-}
-label{
-  font-weight: bold;
-  font-size: 18px;
-}
 

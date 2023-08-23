@@ -10,7 +10,7 @@ export default function LoginPage() {
             </div>
             <div className="personal-info">
                 <div className='personal-info-container'>
-                <h2>Welcome back</h2>
+                <h2>Welcome back </h2>
                 <div className="form">
                     <form action="">
                         <div>
@@ -20,9 +20,8 @@ export default function LoginPage() {
                             <br />
                             <input 
                             type="text"
-                            placeholder='email@gmail.co'
-                            // value="email"
-                            style={{ width: '397px',  height:"37px" , border:"none", marginTop:"10px" }}
+                            placeholder='email@gmail.com'
+                            style={{ width: '397px',  height:"37px" , border:"none", marginTop:"10px", fontFamily: "Battambang" }}
 
                             />
 
@@ -35,26 +34,26 @@ export default function LoginPage() {
                             <br />
                             <input 
                             type="text"
-                            placeholder='........'
-                            // value="password"
-                            style={{ width: '397px',  height:"37px" , border:"none" , marginTop:"10px"}}
+                            placeholder='Enter your password'
+                            style={{ width: '397px',  height:"37px" , border:"none" , marginTop:"10px",fontFamily: "Battambang" }}
 
                             />
                        </div>
-                       <div>
+                       <div className='remember-forgot'>
                         <label >
                             <input 
                             type="checkbox"
-                            checked={true}
                              />
                              Remember me
                         </label>
-                        <span>forgot password</span>
+                        <a href="#"> Forgot password</a>
                        </div>
                        <button type='submit'>
                         Sign in
 
                        </button>
+                   
+
                       
                     </form>
                     <div className="social-login">
@@ -74,8 +73,12 @@ export default function LoginPage() {
                             </button>
                         </div>
                     </div>
-                    <p>don't have account?</p>
+                    <div className="creat">
+                    <p> Don't have account?</p>
                     <a href="#">create an account</a>
+
+                    </div>
+                   
                 </div>
 
                 </div>
