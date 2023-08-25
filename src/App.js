@@ -4,13 +4,15 @@
 import HomePage from './pages/HomePage';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
+import SignupPage from './pages/SignupPage';
 
 function App() {
   return (
     <div className="App">
       
-      {/* <HomePage/> */}
-      <LoginPage/>
+      <HomePage/>
+      {/* <LoginPage/>
+      <SignupPage/> */}
      
 
     </div>

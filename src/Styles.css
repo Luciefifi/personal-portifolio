@@ -229,12 +229,9 @@ img {
 }
 .personal-info{
   width: 716px;
-  /* height: 832px; */
-  /* margin: 7rem  5rem 4rem 6rem; */
   background-color: #89B2DA;
   height: 700px;
   margin-top: 2rem;
-  /* padding: 4rem; */
   margin-left: -2rem;
 
 
@@ -258,10 +255,7 @@ img {
   
 }
 .personal-info-container{
-/* width: 716px;
-height: 600px; */
-/* background-color: red; */
-/* margin: 4rem 2rem 4rem 5rem; */
+
 padding: 5rem;
 }
 form {
@@ -269,7 +263,6 @@ form {
   flex-direction: column;
   gap: 20px;
 
-  /* background-color: black; */
 }
 label{
   font-weight: bold;
@@ -301,12 +294,12 @@ border: none;
 /*====================MEDIA QUERIES(STUBBORN SMALL DEVICES)==================*/
 @media screen and (max-width: 575px) {
   .intro {
-    /* background-color: aqua; */
+   
     width: 311px;
     display: flex;
     flex-direction: column-reverse;
     height: 1087px;
-    /* align-items: center; */
+  
     margin: 0;
     padding: auto;
   }
@@ -317,10 +310,7 @@ border: none;
     margin: 1rem 0 0 1rem;
   }
 
-  /* .t-intro {
-            width: ;
-            margin-top: 2rem;
-          } */
+
 
   .intro .name {
     width: 241px;
@@ -378,7 +368,7 @@ border: none;
   }
   .featured-work-container {
     width: 375px;
-    /* background-color: red; */
+   
   }
   .featured-work {
     width: 337px;
