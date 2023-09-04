@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Styles.css'
 export default function Header() {
   return (
@@ -9,9 +10,10 @@ export default function Header() {
         <div className="bar"></div>
       </div>
       <div className='navlinks'>
-        <p>Works</p>
-        <p>Blogs</p>
-        <p>Contact</p>
+        <Link to='/'> Home</Link>
+        <Link to='/Works'> Works</Link>
+        <Link to='/Blogs'> Blogs</Link>
+        <Link to='/Contacts'> Contact</Link>
       </div>
       <div className='lgn-btn'>
         <button className='login-signup-btn'>

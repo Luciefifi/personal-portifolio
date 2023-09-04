@@ -21,6 +21,12 @@
   display: flex;
   gap: 8rem;
   margin-right: 3rem;
+ 
+
+
+}
+.navlinks a{
+  text-decoration: none;
 }
 .lgn-btn {
   
@@ -213,7 +219,7 @@ img {
 
 /* LOGIN PAGE */
 
-.login-container{
+/* /* .login-container{
   width: 1280px;
   height: 832;
   font-family: "Battambang";
@@ -288,7 +294,7 @@ border: none;
 .remember-forgot a{
   float: right;
   margin-right: 10rem
-} 
+}  */
 
 /* SIGNUP PAGE */
 
@@ -312,6 +318,24 @@ border: none;
   width:564px ;
   height: 90%;
 }
+  
+.coming-soon-container{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 100vh;
+}
+.coming-soon{
+  background-color: deepskyblue;
+  width: 40vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 
 
