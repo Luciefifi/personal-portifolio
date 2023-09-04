@@ -4,14 +4,41 @@ export default function SignupPage() {
   return (
     <div className='login-container'>
         <div className='container'>
-            <div className="image">
+            <div className="signup_image">
                 <img src="/assets/desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpeg" alt="" />
             </div>
-            <div className="personal-info">
+            <div className="personal-info_signup">
                 <div className='personal-info-container'>
-                <h2>Welcome back </h2>
+                <h2>Create account </h2>
+                <h2>Provide your details</h2>
                 <div className="form">
                     <form action="">
+                        <div>
+                        <label htmlFor="email">
+                            Email
+                            </label>  
+                            <br />
+                            <input 
+                            type="text"
+                            placeholder='email@gmail.com'
+                            style={{ width: '397px',  height:"37px" , border:"none", marginTop:"10px", fontFamily: "Battambang" }}
+
+                            />
+
+                        </div>
+                        <div>
+                        <label htmlFor="email">
+                            Email
+                            </label>  
+                            <br />
+                            <input 
+                            type="text"
+                            placeholder='email@gmail.com'
+                            style={{ width: '397px',  height:"37px" , border:"none", marginTop:"10px", fontFamily: "Battambang" }}
+
+                            />
+
+                        </div>
                         <div>
                         <label htmlFor="email">
                             Email
@@ -38,17 +65,15 @@ export default function SignupPage() {
 
                             />
                        </div>
-                       <div className='remember-forgot'>
-                        <label >
-                            <input 
-                            type="checkbox"
-                             />
-                             Remember me
-                        </label>
-                        <a href="#"> Forgot password</a>
+                       <div className='rules_regulations'>
+                        <p> by signup I agree to the</p>
+                        <a href="#"> terms and conditions</a>
+
+                       <span></span>
+                        
                        </div>
                        <button type='submit'>
-                        Sign in
+                        Create account
 
                        </button>
                    
@@ -73,8 +98,8 @@ export default function SignupPage() {
                         </div>
                     </div>
                     <div className="creat">
-                    <p> Don't have account?</p>
-                    <a href="#">create an account</a>
+                    <p> already a Member ?</p>
+                    <a href="#">signin</a>
 
                     </div>
                    

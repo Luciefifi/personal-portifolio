@@ -255,7 +255,7 @@ img {
 }
 .personal-info-container{
 
-padding: 5rem;
+padding: 3rem;
 }
 form {
   display: flex;
@@ -288,7 +288,32 @@ border: none;
 .remember-forgot a{
   float: right;
   margin-right: 10rem
+} 
+
+/* SIGNUP PAGE */
+
+.rules_regulations{
+  display: flex;
+  gap: 10px;
 }
+.rules_regulations a{
+  margin-top: 1rem;
+}
+.personal-info_signup{
+  width: 716px;
+  background-color: #89B2DA;
+  height: 90%;
+  margin-top: 2rem;
+  margin-left: -2rem;
+
+
+}
+.signup_image img{
+  width:564px ;
+  height: 90%;
+}
+
+
 
 /*====================MEDIA QUERIES(STUBBORN SMALL DEVICES)==================*/
 @media screen and (max-width: 575px) {
@@ -406,6 +431,9 @@ border: none;
    
   }
   .image img{
+    display: none;
+  }
+  .signup_image img{
     display: none;
   }
 
