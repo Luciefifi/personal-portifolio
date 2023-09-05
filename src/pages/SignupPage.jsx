@@ -24,7 +24,6 @@ export default function SignupPage() {
                             style={{ width: '397px',  height:"37px" , border:"none", marginTop:"10px", fontFamily: "Battambang" }}
 
                             />
-
                         </div>
                         <div>
                         <label htmlFor="email">
@@ -48,11 +47,9 @@ export default function SignupPage() {
                             type="text"
                             placeholder='email@gmail.com'
                             style={{ width: '397px',  height:"37px" , border:"none", marginTop:"10px", fontFamily: "Battambang" }}
-
                             />
 
                         </div>
-                       
                        <div>
                        <label htmlFor="password">
                             Password
