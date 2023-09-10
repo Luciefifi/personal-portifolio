@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../component/Header";
-import {AiFillFacebook, AiFillLinkedin , AiOutlineInstagram, AiOutlineTwitter} from 'react-icons/ai'
-
+import Footer from "../component/Footer";
 
 export default function HomePage() {
   return (
@@ -184,21 +183,8 @@ export default function HomePage() {
 
       </div>
       <hr />
-
-      <div className="footer">
-        <div className="social-medias">
-            <AiFillFacebook/>
-            <AiFillLinkedin/>
-            <AiOutlineInstagram/>
-            <AiOutlineTwitter/>
-        </div>
-        <div className="foot-note">
-            <p>Copyright &copy; all right reserved</p>
-
-        </div>
-      
-
-      </div>
+<Footer/>
+     
      
      
       
