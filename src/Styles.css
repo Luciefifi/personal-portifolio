@@ -202,7 +202,7 @@ img {
 .footer {
   display: flex;
   flex-direction: column;
- 
+ cursor: pointer;
   gap: none;
   align-items: center;
 }
@@ -371,6 +371,10 @@ color: white;
   cursor: pointer;
   
 }
+
+.other-posts , .view{
+  display: none;
+}
 .blog-categories span{
  margin-top: 1rem;
 }
@@ -386,6 +390,7 @@ color: white;
   /* display: flex;
   flex-direction: row;
   gap: 40px; */
+  gap: 10px; 
 
   
 }
@@ -394,8 +399,9 @@ color: white;
   grid-template-columns: auto auto auto;
   /* display: flex;
   flex-direction: row;
-  gap: 40px; */
-  margin-top: 4rem;
+  /* gap: 40px; */ 
+  margin-top: 3rem;
+  gap: 10px; 
  
 }
 .blog img{
@@ -452,7 +458,7 @@ color: white;
   display: flex;
   justify-content: center;
   gap: 70px;
-  margin: 8rem 0;
+  margin: 4rem 0;
 
 
 }
@@ -595,6 +601,114 @@ color: white;
   .signup_image img{
     display: none;
   }
+
+  /* BLOG */
+  .container-blog{
+    /* background-color: #49c649; */
+    width: 100%;
+  }
+
+  
+  .container-blog .blog-categories{
+    display: none;
+  }
+  .row1 {
+    display:flex ;
+    flex-direction: column;
+  }
+  .row2 {
+    display:flex ;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 2rem 0;
+  
+  
+  }
+  .pagination button{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: none;
+    background-color: #D9D9D9;
+    cursor: pointer;
+  
+  }
+  .pagination .current-page{
+    background-color: #49c649;
+    color: white;
+  }
+  .blog .blog-title{
+   margin: -1rem auto ;
+   
+  
+  
+  }
+  .blog .author{
+    display: flex;
+    gap: 5px;
+    margin-left: 0;
+  }
+  .blogs{
+    gap: 0;
+  }
+
+ .blogs img{
+  width: 100%;
+
+ 
+  margin-left: 0;
+  
+}
+.auth-image img{
+  margin-left: 0;
+ }
+ .blog .auth-name{
+  font-size: 16px;
+  margin-top: 2rem;
+  color: #49c649;
+
+}
+
+.category button {
+  background-color: #49c649;
+  border-radius: 10px;
+  margin-left: 0;
+  margin-bottom: 0;
+  color: white;
+}
+.blog .author{
+ margin-top: -1rem;
+}
+.other-posts{
+display: block;
+color: rgba(0, 0, 0, 0.61);
+font-family: Battambang;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: -1rem;
+}
+
+.view{
+  display: flex;
+color: #49C649;
+font-family: Battambang;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 2rem;
+justify-content: center;
+}
 
 }
 
