@@ -42,7 +42,15 @@ const backgroundImageStyle = {
         <button>Education</button>
         <span> <a href='##'>View all </a></span>
       </div>
+      <div className='view'>
+      <span > All categories</span>
+      </div> 
+      
+      
       <div className="blogs">
+      <div className='other-posts'>
+      <span > Other posts</span>
+      </div>
         <div className="row1">
           <div className="blog">
             <img src="/assets/pexels-jess-bailey-designs-788946.jpg" alt="image" /> 
