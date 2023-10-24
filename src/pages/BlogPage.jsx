@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, {useState , useEffect} from 'react'
 import Footer from '../component/Footer'
 
@@ -124,7 +125,7 @@ const backgroundImageStyle = {
             <div className="blog-title">
                 <p>Technology Advancement : the impact of technolgy in daily life</p>
               </div>
-              <div className="author">
+              <div className="sing-author">
               <div className="auth-image">
               <img src="/assets/31.jpg" alt="author" />
 

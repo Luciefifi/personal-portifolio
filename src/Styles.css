@@ -476,6 +476,162 @@ color: white;
   background-color: #1E90FF;
 }
 
+/* SINGLE BLOG*/
+.single-blog{
+  margin-left: 6rem;
+}
+.top-conta .single-blog-catbutton{
+  background-color: #49C649;
+  color: white;
+  width: 138px;
+  height: 37px;
+  border: none;
+
+}
+.top-conta .single-title{
+  color: #000;
+font-family: Battambang;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 1rem;
+}
+.sing-author{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: -30px;
+
+ 
+ 
+}
+.sing-auth-image img {
+  width: 50px;
+  height: 50px;
+ /* flex-shrink: 0; */
+ margin-left: 2px;
+  border-radius: 50px;
+
+}
+.sauth-name{
+  margin-top: 30px;
+}
+.sblog-content{
+display: flex;
+flex-direction: row;
+gap: 20px;
+width: 1152px;
+/* margin-left: 6rem; */
+}
+.sing-content{
+  /* background-color: #49C649; */
+  width: 1000px;
+
+}
+.sing-content img{
+  width: 700px;
+  height: 368px;
+  margin-left: 0;
+flex-shrink: 0;
+}
+.srelated-blog img{
+width: 80px;
+height: 80px;
+flex-shrink: 0;
+margin-left: 1rem;
+}
+/* .cat-tit{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+} */
+.s-intro{
+  width: 698px;
+height: 185px;
+flex-shrink: 0;
+color: #000;
+font-family: Battambang;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.content h3 {
+color: #49C649;
+font-family: Battambang;
+font-size: 13px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+}
+
+.content p {
+color: #000;
+font-family: Battambang;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.related{
+  
+  width: 398px;
+  height: 351px;
+  flex-shrink: 0;
+  border-radius: 5px;
+ background: rgba(217, 217, 217, 0.21);
+ margin-bottom: 2rem;
+}
+.related span{
+color: #49C649;
+font-family: Battambang;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.srel{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 41px;
+}
+.related p{
+  color: #000;
+font-family: Battambang;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1rem;
+}
+
+.other-blo{
+  width: 398px;
+  /* height: 351px; */
+  flex-shrink: 0;
+ 
+}
+.other-blo span{
+ color: #49C649;
+font-family: Battambang;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.other-blo p{
+  color: #000;
+font-family: Battambang;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1rem;
+}
+.cat-tit span{
+  margin-top: 2rem;
+}
 
 
 
@@ -709,6 +865,34 @@ line-height: normal;
 margin-top: 2rem;
 justify-content: center;
 }
+
+/* single blog */
+.sblog-content{
+  display: flex;
+  flex-direction: column;
+ margin-left: 0;
+  }
+  .top-conta{
+    width: 375px;
+  }
+  .top-conta .single-title{
+    color: #49C649;
+    font-size: 14px;
+
+  }
+  .single-blog{
+    width: 575px;
+    margin: 3rem 2rem 0 1rem;
+  }
+  .sblog-content, .sing-content{
+    width: 575px;
+  }
+  .content p {
+    width: 698px;
+  }
+  .srelated-blog{
+  margin-left: 6rem;
+  }
 
 }
 
