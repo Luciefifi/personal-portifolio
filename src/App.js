@@ -8,6 +8,7 @@ import SignupPage from './pages/SignupPage';
 import WorkPage from './pages/WorkPage';
 import ContactPage from './pages/ContactPage';
 import BlogPage from './pages/BlogPage';
+import SingleBlogPage from './pages/SingleBlogPage';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     <Route path='/Works'  element={<WorkPage/>}/>
     <Route path='/Blogs'  element={<BlogPage/>}/>
     <Route path='/Contacts'  element={<ContactPage/>}/>
+    <Route path='/Blog'  element={<SingleBlogPage/>}/>
 
     </Routes>
     </Router>
