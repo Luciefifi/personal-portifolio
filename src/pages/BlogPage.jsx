@@ -14,7 +14,7 @@ const imageUrls = [
 useEffect(() => {
   const interval = setInterval(() => {
     setImages((prevIndex) => (prevIndex + 1) % imageUrls.length);
-  }, 5000); // Adjust the interval as needed (5 seconds in this example)
+  }, 5000); 
 
   return () => {
     clearInterval(interval);
@@ -29,7 +29,7 @@ const backgroundImageStyle = {
   backgroundRepeat: 'no-repeat',
   width: '100%',
   height: '400px',
-  transition: 'background-image 1s ease-in-out', // Add a smooth transition effect
+  transition: 'background-image 1s ease-in-out', 
 };
 
   return (
