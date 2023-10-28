@@ -23,7 +23,7 @@ export default function SingleBlogPage() {
       <div className="sblog-content">
         <div className="sing-content">
         <img src="/assets/pexels-jess-bailey-designs-788946.jpg" alt="image" /> 
-          <div className="content">
+          <div className="s-content">
             <p className="s-intro">
               Traveling is an enriching experience that opens up new horizons,
               exposes us to different cultures, and creates memories that last a
